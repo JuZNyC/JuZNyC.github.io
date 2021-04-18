@@ -14,7 +14,7 @@ h3 {
     font-size: 1.4rem;
 }
 
-span {
+.degrees > span {
     font-size: 6rem;
 }
 
@@ -36,11 +36,12 @@ span {
     margin-left: 2rem;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:5px !important;
-    padding-bottom:0 !important;
-    height: 30px;
-}
 .navbar {
     min-height:30px !important;
+    background-color: cadetblue;
+}
+
+.nav-item {
+    color: azure;
+    margin: 5px;
 }
