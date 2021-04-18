@@ -35,3 +35,12 @@ span {
     justify-content: center;
     margin-left: 2rem;
 }
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important;
+    padding-bottom:0 !important;
+    height: 30px;
+}
+.navbar {
+    min-height:30px !important;
+}
