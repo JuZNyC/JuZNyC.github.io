@@ -1,9 +1,14 @@
-.navbar {
+.navbar{
     min-height:30px !important;
     background-color: cadetblue;
 }
 
-.nav-item {
+.nav-item , .dropdown{
     color: azure;
     margin: 5px;
+}
+
+.dropdown > #dropdownMenuButton {
+    background: transparent;
+    border: transparent;
 }
